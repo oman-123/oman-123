@@ -1,0 +1,896 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12806748-2" type="f2cca76c2e67bd643429e50a-text/javascript"></script>
+<script type="f2cca76c2e67bd643429e50a-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-12806748-2');
+</script>
+
+<title>حساب المعدل</title>
+<style type="text/css"> 
+<!--
+.style6 {
+	font-family: Tahoma;
+	color: #000000;
+}
+.style9 {color: #000000}
+.style10 {
+	font-family: Tahoma;
+	color: #000000;
+	text-align: center;
+}
+.style13 {
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+.style14 {
+	color: #000000;
+	text-align: center;
+}
+.style15 {
+	text-align: center;
+}
+.style16 {
+	background-color: #FFFFFF;
+}
+.style17 {
+	background-color: #FFFFFF;
+	color: #FF0000;
+}
+.auto-style1 {
+	background-color: #FFFFCC;
+}
+.auto-style2 {
+	font-weight: bold;
+	background-color: #FFFFCC;
+}
+.auto-style3 {
+	background-color: #FFFFCC;
+	color: #FF0000;
+}
+.auto-style4 {
+	background-color: #33CCFF;
+}
+-->
+</style>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" >
+    <meta content="ar-kw" http-equiv="Content-Language">
+	<meta name="viewport" content="width=320, maximum-scale=0.6, user-scalable=1"> 	<meta name="Keywords" content="حاسبة,المعدل,حاسب,معدل" >
+	<meta name="Description" content="حاسب حساب المعدل التراكمي والتخصصي حاسبة المعدل" >
+
+</head>
+ 
+<body style="background-color: #FFFFFF"> 
+<div class="style15">
+	<h1>حساب المعدل
+</h1>
+</div>
+<iframe frameborder="0" align="middle"  src="calculator.html" style="height: 150px; width: 70%"> </iframe>
+<TABLE cellPadding=10 width=624 align=center  dir="rtl">
+  <TBODY>
+    <TR>
+      <TD 
+                                style="FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Tahoma; TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                borderColor=#e8f1f7 width=578><FONT 
+                                style="FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Tahoma; TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                face=Tahoma size=2>
+        
+        <SCRIPT language=JavaScript type="f2cca76c2e67bd643429e50a-text/javascript">
+<!-- 
+function grade(x,row)
+{
+ 
+if (x == 4 && document.CALC.U[row].value != "") document.CALC.T[row].value= eval(document.CALC.U[row].value)*4;
+if (x == 3.7 && document.CALC.U[row].value != "") document.CALC.T[row].value= eval(document.CALC.U[row].value)*3.7;
+if (x == 3.3 && document.CALC.U[row].value != "") document.CALC.T[row].value= eval(document.CALC.U[row].value)*3.3;
+if (x == 3 && document.CALC.U[row].value != "") document.CALC.T[row].value= eval(document.CALC.U[row].value)*3;
+if (x == 2.7 && document.CALC.U[row].value != "") document.CALC.T[row].value= eval(document.CALC.U[row].value)*2.7;
+if (x == 2.3 && document.CALC.U[row].value != "") document.CALC.T[row].value= eval(document.CALC.U[row].value)*2.3;
+if (x == 2 && document.CALC.U[row].value != "") document.CALC.T[row].value= eval(document.CALC.U[row].value)*2;
+if (x == 1.7 && document.CALC.U[row].value != "") document.CALC.T[row].value= eval(document.CALC.U[row].value)*1.7;
+if (x == 1.3 && document.CALC.U[row].value != "") document.CALC.T[row].value= eval(document.CALC.U[row].value)*1.3;
+if (x == 1 && document.CALC.U[row].value != "") document.CALC.T[row].value= eval(document.CALC.U[row].value)*1;
+if (x == 0 && document.CALC.U[row].value != "") document.CALC.T[row].value= eval(document.CALC.U[row].value)*0;
+}
+ 
+function AddNumber2(x,y)
+{
+answer=eval(x)+eval(y);
+alert(answer);
+}
+ 
+ 
+function rightgpa(compgpa)
+{
+check = parseInt((compgpa*1000)%10);
+alert(check);
+if (check >= 5) check = parseInt((compgpa*100)+1)*.01;
+alert(check);
+compeng=check;
+}
+ 
+ 
+function calcgpa()
+{
+totalt=0;
+totalu=0;
+NFU=0;
+NGPA=0;
+ 
+totalr=0;
+TRU=0;
+ 
+COURSE=0;
+ 
+for (var i = 0; i < 8; i++) {
+	if (document.CALC.T[i].value != "")
+	totalt= eval(totalt) + eval(document.CALC.T[i].value);
+	}
+document.CALC.TT.value=Math.round (totalt*100)/100;
+
+ 
+for (var i = 0; i < 8; i++) {
+	if (document.CALC.U[i].value != "")
+	totalu= eval(totalu) + eval(document.CALC.U[i].value);
+	}
+document.CALC.TU.value=totalu;
+ 
+for (var i = 0; i < 8; i++) {
+	if (document.CALC.R[i].value != "none"){
+	totalr= eval(totalr) + eval(document.CALC.U[i].value);
+	TRU=eval(TRU) + eval(document.CALC.R[i].value)*eval(document.CALC.U[i].value);
+	}
+	}
+ 
+ 
+if (document.CALC.LFU.value != "" && document.CALC.LGPA.value != ""){
+	NFU=eval(document.CALC.LFU.value)+eval(totalu)-eval(totalr);
+	NGPA=((eval(document.CALC.LGPA.value)*eval(document.CALC.LFU.value)) + 			eval(totalt) - eval(TRU)) / (eval(NFU));
+	};
+ 
+if (document.CALC.LFU.value == "" || document.CALC.LGPA.value == ""){
+	NFU=eval(totalu);
+	NGPA=(eval(totalt))/(eval(totalu));
+	};
+ 
+ 
+ 
+ 
+document.CALC.FU.value=NFU;
+document.CALC.GPA.value=eval(Math.round(NGPA*100))/100;
+//document.CALC.CGPA.value=(eval(totalt))/(eval(totalu));
+document.CALC.CGPA.value=eval(Math.round((eval(totalt))/(eval(totalu))*100))/100;
+}
+ 
+function printWindow() {
+bV = parseInt(navigator.appVersion);
+if (bV >= 4) window.print();
+}
+ 
+// -->
+                    </SCRIPT>
+        </FONT><FORM name=CALC>
+          <CENTER class="style6">
+            <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">عدد الساعات اللي خلصتها بدون هذا الفصل 
+		 :
+                  <INPUT 
+                                size=10 name=LFU>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			المعدل التراكمي :
+<INPUT size=10 name=LGPA>
+            </FONT> </P>
+          </CENTER>
+          <P class="style10"><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none"><BR>
+              <B 
+                               
+          </FONT></P>
+          <DIV align=center class="style6">
+            <TABLE width=500 height=363 border=0 cellpadding="0" cellspacing="0">
+              <TBODY>
+                <TR bgcolor="#ffcc00">
+                  <TD 
+                                width=114 height=33 
+                                style="BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; TEXT-DECORATION: none" class="auto-style3">
+                    <DIV align=center class="style9" style="height: 16px"><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						#</FONT></DIV></TD>
+                  <TD 
+                                width=114 height=33 
+                                style="BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; TEXT-DECORATION: none" class="auto-style4">
+                    <DIV align=center class="style9"><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						عدد ساعات المادة</FONT></DIV></TD>
+                  <TD 
+                                width=123 height=33 
+                                style="BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; TEXT-DECORATION: none" class="auto-style4">
+                    <DIV align=center><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						الدرجة</FONT></DIV></TD>
+                  <TD 
+                                width=143 height=33 
+                                style="BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; TEXT-DECORATION: none" class="auto-style4">
+                    <DIV align=center><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						النقاط</FONT></DIV></TD>
+                  <TD height=33 
+                                style="BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; TEXT-DECORATION: none" class="auto-style4">
+                    <DIV align=center><font style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						درجة المادة قبل الاعادة (ا)</font></DIV></TD>
+                </TR>
+                <TR>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+height=33 class="auto-style2">
+                    <DIV align=center><font style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						1.</font></DIV></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+height=33 class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[0].value,0)" size=10 name=U data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=123 
+height=33 class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[0].value,0)" size=1 name=G data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                          <OPTION selected>الدرجة</OPTION>
+                          <OPTION value=4>A</OPTION>
+                          <OPTION 
+                                value=3.7>A-</OPTION>
+                          <OPTION 
+                                value=3.3>B+</OPTION>
+                          <OPTION 
+                                value=3>B</OPTION>
+                          <OPTION 
+                                value=2.7>B-</OPTION>
+                          <OPTION 
+                                value=2.3>C+</OPTION>
+                          <OPTION 
+                                value=2>C</OPTION>
+                          <OPTION 
+                                value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=143 
+height=33 class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT size=10 
+                                name=T>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD width=270 
+height=33 
+                                align=middle 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT size=1 name=R>
+                          <OPTION value=none selected>الدرجة</OPTION>
+                          <OPTION value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                </TR>
+                <TR>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+height=34 class="auto-style2">
+                    <DIV align=center><font style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						2.</font></DIV></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+height=34 class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[1].value,1)" size=10 name=U data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=123 
+height=34 class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[1].value,1)" size=1 name=G data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                          <OPTION selected>الدرجة</OPTION>
+                           <OPTION value=4>A</OPTION>
+                          <OPTION 
+                                value=3.7>A-</OPTION>
+                          <OPTION 
+                                value=3.3>B+</OPTION>
+                          <OPTION 
+                                value=3>B</OPTION>
+                          <OPTION 
+                                value=2.7>B-</OPTION>
+                          <OPTION 
+                                value=2.3>C+</OPTION>
+                          <OPTION 
+                                value=2>C</OPTION>
+                          <OPTION 
+                                value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=143 
+height=34 class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT size=10 
+                                name=T>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD width=270 
+height=34 
+                                align=middle 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT size=1 name=R>
+                          <OPTION value=none selected>الدرجة</OPTION>
+                          <OPTION value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                </TR>
+                <TR>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+height=33 class="auto-style2">
+                    <DIV align=center><font style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						3.</font></DIV></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+height=33 class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[2].value,2)" size=10 name=U data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=123 
+height=33 class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[2].value,2)" size=1 name=G data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                          <OPTION selected>الدرجة</OPTION>
+                          <OPTION value=4>A</OPTION>
+                          <OPTION 
+                                value=3.7>A-</OPTION>
+                          <OPTION 
+                                value=3.3>B+</OPTION>
+                          <OPTION 
+                                value=3>B</OPTION>
+                          <OPTION 
+                                value=2.7>B-</OPTION>
+                          <OPTION 
+                                value=2.3>C+</OPTION>
+                          <OPTION 
+                                value=2>C</OPTION>
+                          <OPTION 
+                                value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=143 
+height=33 class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT size=10 
+                                name=T>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD width=270 
+height=33 
+                                align=middle 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" class="style16">
+                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT size=1 name=R>
+                          <OPTION value=none selected>الدرجة</OPTION>
+                          <OPTION value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                </TR>
+                <TR>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+height=33 class="auto-style2">
+                    <DIV align=center><font style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						4.</font></DIV></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[3].value,3)" size=10 name=U data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=123 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[3].value,3)" size=1 name=G data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                          <OPTION selected>الدرجة</OPTION>
+                          <OPTION value=4>A</OPTION>
+                          <OPTION 
+                                value=3.7>A-</OPTION>
+                          <OPTION 
+                                value=3.3>B+</OPTION>
+                          <OPTION 
+                                value=3>B</OPTION>
+                          <OPTION 
+                                value=2.7>B-</OPTION>
+                          <OPTION 
+                                value=2.3>C+</OPTION>
+                          <OPTION 
+                                value=2>C</OPTION>
+                          <OPTION 
+                                value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=143 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT size=10 
+                                name=T>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD width=270 
+                                height=33 
+                                align=middle 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT size=1 name=R>
+                          <OPTION value=none selected>الدرجة</OPTION>
+                          <OPTION value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                </TR>
+                <TR>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+height=33 class="auto-style2">
+                    <DIV align=center><font style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						5.</font></DIV></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[4].value,4)" size=10 name=U data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=123 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[4].value,4)" size=1 name=G data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                          <OPTION selected>الدرجة</OPTION>
+                           <OPTION value=4>A</OPTION>
+                          <OPTION 
+                                value=3.7>A-</OPTION>
+                          <OPTION 
+                                value=3.3>B+</OPTION>
+                          <OPTION 
+                                value=3>B</OPTION>
+                          <OPTION 
+                                value=2.7>B-</OPTION>
+                          <OPTION 
+                                value=2.3>C+</OPTION>
+                          <OPTION 
+                                value=2>C</OPTION>
+                          <OPTION 
+                                value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=143 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT size=10 
+                                name=T>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD width=270 
+                                height=33 
+                                align=middle 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT size=1 name=R>
+                          <OPTION value=none selected>الدرجة</OPTION>
+                          <OPTION value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                </TR>
+                <TR>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+height=33 class="auto-style2">
+                    <DIV align=center><font style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						6.</font></DIV></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[5].value,5)" size=10 name=U data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=123 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[5].value,5)" size=1 name=G data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                          <OPTION selected>الدرجة</OPTION>
+                           <OPTION value=4>A</OPTION>
+                          <OPTION 
+                                value=3.7>A-</OPTION>
+                          <OPTION 
+                                value=3.3>B+</OPTION>
+                          <OPTION 
+                                value=3>B</OPTION>
+                          <OPTION 
+                                value=2.7>B-</OPTION>
+                          <OPTION 
+                                value=2.3>C+</OPTION>
+                          <OPTION 
+                                value=2>C</OPTION>
+                          <OPTION 
+                                value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=143 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT size=10 
+                                name=T>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD width=270 
+                                height=33 
+                                align=middle 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT size=1 name=R>
+                          <OPTION value=none selected>الدرجة</OPTION>
+                          <OPTION value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                </TR>
+                <TR>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+height=33 class="auto-style2">
+                    <DIV align=center><font style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						7.</font></DIV></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[6].value,6)" size=10 name=U data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=123 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[6].value,6)" size=1 name=G data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                          <OPTION selected>الدرجة</OPTION>
+                          <OPTION value=4>A</OPTION>
+                          <OPTION 
+                                value=3.7>A-</OPTION>
+                          <OPTION 
+                                value=3.3>B+</OPTION>
+                          <OPTION 
+                                value=3>B</OPTION>
+                          <OPTION 
+                                value=2.7>B-</OPTION>
+                          <OPTION 
+                                value=2.3>C+</OPTION>
+                          <OPTION 
+                                value=2>C</OPTION>
+                          <OPTION 
+                                value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=143 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT size=10 
+                                name=T>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD width=270 
+                                height=33 
+                                align=middle 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT size=1 name=R>
+                          <OPTION value=none selected>الدرجة</OPTION>
+                          <OPTION value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                </TR>
+                <TR>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+height=33 class="auto-style2">
+                    <DIV align=center><font style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						8.</font></DIV></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=114 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[7].value,7)" size=10 name=U data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=123 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT onchange="if (!window.__cfRLUnblockHandlers) return false; grade(document.CALC.G[7].value,7)" size=1 name=G data-cf-modified-f2cca76c2e67bd643429e50a-="">
+                          <OPTION selected>الدرجة</OPTION>
+                          <OPTION value=4>A</OPTION>
+                          <OPTION 
+                                value=3.7>A-</OPTION>
+                          <OPTION 
+                                value=3.3>B+</OPTION>
+                          <OPTION 
+                                value=3>B</OPTION>
+                          <OPTION 
+                                value=2.7>B-</OPTION>
+                          <OPTION 
+                                value=2.3>C+</OPTION>
+                          <OPTION 
+                                value=2>C</OPTION>
+                          <OPTION 
+                                value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" 
+                                align=middle width=143 
+                                height=33 class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <INPUT size=10 
+                                name=T>
+                      </FONT></P>
+                  </CENTER></TD>
+                  <TD width=270 
+                                height=33 
+                                align=middle 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" class="style16">                    <CENTER>
+                      <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+                        <SELECT size=1 name=R>
+                          <OPTION value=none selected>الدرجة</OPTION>
+                          <OPTION value=1.7>C-</OPTION>
+                          <OPTION 
+                                value=1.3>D+</OPTION>
+                          <OPTION 
+                                value=1>D</OPTION>
+                          <OPTION value=0>F</OPTION>
+                          <OPTION value=0>Fw</OPTION>
+                          &nbsp;
+                        </SELECT>
+                      </FONT></P>
+                  </CENTER></TD>
+                </TR>
+                <TR bgcolor="#ffcc00">
+                  <TD 
+height=33 colspan="3" 
+                                align=middle 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" class="auto-style1">
+                    <DIV align=center></DIV>
+                    <DIV align=center><FONT 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						 مجموع الساعات تلقائي<BR>
+                      <INPUT size=10 
+                                name=TU>
+                  <br>
+                  </FONT> </DIV></TD>
+                  <TD 
+height=33 colspan="2" 
+                                align=middle 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none" class="auto-style1">
+                    <div align="center"><FONT 
+                                style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+						مجموع النقاط<BR>
+                      <INPUT size=10 
+                                name=TT>
+                    </FONT> </div></TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+          </DIV>
+          <CENTER class="style9">
+            <P><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none"><BR>
+              المعدل الفصلي المتوقع :
+                  <INPUT size=10 
+                                name=CGPA>
+			&nbsp;&nbsp;<BR>
+                  <BR>
+         عدد الساعات اللي نجحت فيها  :
+                  <INPUT size=10 name=FU>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			المعدل التراكمي المتوقع :
+<INPUT size=10 name=GPA>&nbsp;&nbsp;&nbsp; </FONT></P>
+          </CENTER>
+          <P class="style14"><FONT style="TEXT-ALIGN: justify; TEXT-DECORATION: none"><BR>
+          <B 
+                                style="TEXT-DECORATION: none">&nbsp;</B><span 
+                                style="TEXT-DECORATION: none">اضغط</span> على زر 
+		  &quot;النتيجة!&quot; </FONT></P>
+		  <P class="style15">
+              <font style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+              &nbsp;
+              <INPUT name="reset" type=reset style="FONT-WEIGHT: bold" value=اعادة>&nbsp;&nbsp;
+              <INPUT name="button" type=button style="FONT-WEIGHT: bold" onclick="if (!window.__cfRLUnblockHandlers) return false; printWindow()" value=طباعة data-cf-modified-f2cca76c2e67bd643429e50a-="">
+              </font>
+              </P>
+            <P class="style15">
+              <font style="TEXT-ALIGN: justify; TEXT-DECORATION: none">
+              <INPUT style="FONT-WEIGHT: bold" onclick="if (!window.__cfRLUnblockHandlers) return false; calcgpa()" type=button value=النتيجة! name=R0 data-cf-modified-f2cca76c2e67bd643429e50a-="">
+              </font></P>
+        </FORM>
+        </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+	<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f2cca76c2e67bd643429e50a-|49" defer></script></body>
+</html>
+
